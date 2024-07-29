@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url(https://img.freepik.com/free-photo/sunshine-clouds-sky-during-morning-background-blue-white-pastel-heaven-soft-focus-lens-flare-sunlight-abstract-blurred-cyan-gradient-peaceful-nature-open-view-out-windows-beautiful-summer-spring_1253-1094.jpg?w=996&t=st=1719858888~exp=1719859488~hmac=9ee12a3b722a736cf0ba1f6a7503cdbfc7f354655719b80dc2d1b858b3ad0628);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 440px;
+}
+h1{
+    font-weight: 700;
+    margin-top: 170px;
+    color: black;
+}
+label{
+    color: whitesmoke;
+    background-color: transparent;
+}
+input{
+    width: 350px;
+    padding: 5px;
+    text-align: center;
+
+}
