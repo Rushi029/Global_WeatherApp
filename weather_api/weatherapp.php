@@ -8,7 +8,7 @@
         if ($_GET['city']) 
         {
             $apiData = file_get_contents("https://api.openweathermap.org/data/2.5/weather?q=".
-            $_GET['city']."&appid=1a1a03b00b876cb5ce24c8dfef46fcbc");
+            $_GET['city']."&appid=1a1a03b00b876cb5ce24c8dfef46fcbc");        // create specific api key 
             $weatherArray = json_decode($apiData , true);
             if($weatherArray['cod'] == 200 )
             {
