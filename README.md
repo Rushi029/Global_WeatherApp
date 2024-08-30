@@ -1,2 +1,2 @@
-<h1> Using Openweather Api Create a webapp to know current weather condition of global city..</h1>
+<h1> Using API Create a Webapp to know current weather condition of any city..</h1>
  
